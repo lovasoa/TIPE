@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="définition déclinaison.svg">
+   sodipodi:docname="démonstration formule azimut hauteur.svg">
   <defs
      id="defs4">
     <marker
@@ -152,36 +152,40 @@
        sodipodi:start="0"
        sodipodi:end="3.1415927"
        sodipodi:open="true" />
-    <path
-       sodipodi:type="star"
-       style="fill:#ffff00;fill-opacity:1;stroke:#0000ff;stroke-width:3.39700007;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       id="path3801"
-       sodipodi:sides="5"
-       sodipodi:cx="567.70575"
-       sodipodi:cy="690.7276"
-       sodipodi:r1="76.057175"
-       sodipodi:r2="38.028587"
-       sodipodi:arg1="0.52903047"
-       sodipodi:arg2="1.157349"
-       inkscape:flatsided="false"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="m 633.36566,729.1134 -50.38122,-3.56145 -31.49572,39.4838 -12.18152,-49.01594 -47.28404,-17.75304 42.85263,-26.73207 2.27258,-50.45579 38.6659,32.49461 48.68857,-13.43035 -18.95579,46.81485 z"
-       inkscape:transform-center-x="0.20655869"
-       inkscape:transform-center-y="-18.835128"
-       transform="translate(74.751288,-186.87822)" />
-    <text
-       xml:space="preserve"
-       style="font-size:107px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="621.18292"
-       y="511.88995"
-       id="text3803"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3805"
-         x="621.18292"
-         y="511.88995"
-         style="font-size:17px">Soleil</tspan></text>
+    <g
+       id="g6727"
+       transform="matrix(0.50641951,0,0,0.50641951,350.63129,173.06854)">
+      <path
+         transform="translate(74.751288,-186.87822)"
+         inkscape:transform-center-y="-18.835128"
+         inkscape:transform-center-x="0.20655869"
+         d="m 633.36566,729.1134 -50.38122,-3.56145 -31.49572,39.4838 -12.18152,-49.01594 -47.28404,-17.75304 42.85263,-26.73207 2.27258,-50.45579 38.6659,32.49461 48.68857,-13.43035 -18.95579,46.81485 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.157349"
+         sodipodi:arg1="0.52903047"
+         sodipodi:r2="38.028587"
+         sodipodi:r1="76.057175"
+         sodipodi:cy="690.7276"
+         sodipodi:cx="567.70575"
+         sodipodi:sides="5"
+         id="path3801"
+         style="fill:#ffff00;fill-opacity:1;stroke:#e89500;stroke-width:3.39700007;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="star" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3803"
+         y="508.8595"
+         x="616.13214"
+         style="font-size:107px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:17px"
+           y="508.8595"
+           x="616.13214"
+           id="tspan3805"
+           sodipodi:role="line">Soleil</tspan></text>
+    </g>
     <text
        xml:space="preserve"
        style="font-size:107px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -231,5 +235,71 @@
          x="335.13644"
          y="329.7298"
          style="font-size:17px;fill:#ff0000;fill-opacity:1">Méridien</tspan></text>
+    <g
+       id="g6722"
+       transform="translate(-19.172593,62.629458)">
+      <rect
+         transform="translate(23.765771,258.59824)"
+         y="100.36508"
+         x="398.00009"
+         height="5.0507607"
+         width="92.934029"
+         id="rect5975"
+         style="fill:#ff6600;fill-opacity:1;stroke:none" />
+      <a
+         id="a6719">
+        <path
+           sodipodi:type="star"
+           style="fill:#ff6600;fill-opacity:1;stroke:none"
+           id="path6717"
+           sodipodi:sides="3"
+           sodipodi:cx="558.61438"
+           sodipodi:cy="70.060509"
+           sodipodi:r1="57.093731"
+           sodipodi:r2="114.18746"
+           sodipodi:arg1="0.026542437"
+           sodipodi:arg2="1.07374"
+           inkscape:flatsided="false"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="M 615.688,71.575738 613.06355,170.43015 528.76534,118.7301 444.46714,67.03005 531.3898,19.875689 618.31246,-27.278673 z"
+           transform="matrix(-0.1505067,0,0,0.11609209,603.81855,353.6844)"
+           inkscape:transform-center-x="0.317524"
+           inkscape:transform-center-y="0.17590171" />
+      </a>
+    </g>
+    <g
+       id="g6722-8"
+       transform="translate(-84.85281,81.822358)">
+      <rect
+         transform="translate(23.765771,258.59824)"
+         y="100.36508"
+         x="398.00009"
+         height="5.0507607"
+         width="92.934029"
+         id="rect5975-6"
+         style="fill:#ff6600;fill-opacity:1;stroke:none" />
+      <a
+         id="a6719-4">
+        <path
+           sodipodi:type="star"
+           style="fill:#ff6600;fill-opacity:1;stroke:none"
+           id="path6717-6"
+           sodipodi:sides="3"
+           sodipodi:cx="558.61438"
+           sodipodi:cy="70.060509"
+           sodipodi:r1="57.093731"
+           sodipodi:r2="114.18746"
+           sodipodi:arg1="0.026542437"
+           sodipodi:arg2="1.07374"
+           inkscape:flatsided="false"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="M 615.688,71.575738 613.06355,170.43015 528.76534,118.7301 444.46714,67.03005 531.3898,19.875689 618.31246,-27.278673 z"
+           transform="matrix(-0.1505067,0,0,0.11609209,603.81855,353.6844)"
+           inkscape:transform-center-x="0.317524"
+           inkscape:transform-center-y="0.17590171" />
+      </a>
+    </g>
   </g>
 </svg>
