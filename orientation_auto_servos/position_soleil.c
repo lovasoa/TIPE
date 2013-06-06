@@ -29,8 +29,8 @@ double heureLocale () {
 }
 
 double tempsSolaire() {
-	//un degré de longitude est égal à 4 minutes
-	//printf("tpsSol: %g\n", heureLocale() - fuseauHoraire + (longitudeDeg*4 - equationDuTemps())/60);
+	//Retourne le temps solaire en heures
+	//un degré de longitude est égal à 4 minutes de temps solaire
 	return heureLocale() - fuseauHoraire + (longitudeDeg*4 - equationDuTemps())/60;
 }
 
@@ -44,18 +44,31 @@ double angleHoraire () {
   return pi * (tempsSolaire()-12)/12;
 }
 
-double hauteur () {
-  double ah = angleHoraire();
-  double dec = declinaison();
-  //printf("sin(h) = %g\n", sin(latitudeRad)*sin(dec)+cos(latitudeRad)*cos(dec)*cos(ah));
-  return asin(sin(latitudeRad)*sin(dec) + cos(latitudeRad)*cos(dec)*cos(ah));
+double hauteur (double ah, double dec) {
+	/*
+	paramètres:
+		ah : angle horaire (en radians)
+		dec : déclinaison (en radians)
+	retour:
+		double hauteur (en radians)
+	*/
+	return asin(sin(latitudeRad)*sin(dec) + cos(latitudeRad)*cos(dec)*cos(ah));
 }
 
-double azimut() {
-	//http://perso.limsi.fr/Individu/bourdin/master/Calculs_astronomiques_simples.pdf
-	double ah = angleHoraire();
-	double dec = declinaison();
-	double h = hauteur();
+double azimut (double ah, double dec, double h) {
+	/*
+	paramètres:
+		ah : angle horaire (en radians)
+		dec : déclinaison (en radians)
+		h : hauteur (en radians)
+	retour:
+		double hauteur (en radians)
+
+
+	Explication de la formule utilisée:
+		http://perso.limsi.fr/Individu/bourdin/master/Calculs_astronomiques_simples.pdf
+	Les deux orthographes (azimuth et azimut) sont correctes.
+	*/
 	double azimuth = asin( cos(dec)*sin(ah) / cos(h)); //azimuth compté à partir du sud
 	azimuth += pi;//On compte l'azimuth à partir du nord
 	return azimuth;
@@ -106,11 +119,27 @@ double numJourFromDate(char date[],char time[]) {
 	return getNumJour(jour, numMois, annee, heure, minutes, secondes);
 }
 
-/*
-double MAJnumJour () {
-  numJour = numJourInit + millis()/(24*60*60*1000);
+
+#ifndef ARDUINO
+unsigned long millis() {
+	//Simulation
+	return 0;
 }
-*/
+#endif
+
+void MAJnumJour () {
+  numJour = numJourInit + (double)millis()/(24*60*60*1000);
+}
+
+void calculAzimuthEtHauteur (void) {
+	//n est le numéro du jour dans l'année
+	double ah = angleHoraire(); printf("ah:%g\n",ah);
+	double dec = declinaison();printf("dec:%g\n",dec);
+	double h = hauteur(ah, dec);
+	double alpha = azimut(ah, dec, h);
+	
+	printf("hauteur : %g°\nazimuth : %g°\n\n", rad2deg*h, rad2deg*alpha);
+}
 
 void init (void) {
 	latitudeRad = latitudeDeg * deg2rad;
@@ -119,15 +148,22 @@ void init (void) {
 	printf("numJour compilation: %g\n", numJour);
 }
 
+	
 int main (void) {
 	init();
 
-	float h;
-	numJour = 156;
+	char dateTimeStr[22] = "Feb 12 1996 23:59:01"; // 22 = 12 + 1 + 8 + 1 ("Feb 12 1996 23:59:01\0")
+
+	char *date = dateTimeStr;
+	char *time = dateTimeStr+12;
+
 	while (1) {
-		scanf("%f", &h);
-		numJour = 156 + h/24;
-		printf("numJour: %g \t hauteur: %g \t azimuth : %g\n", numJour, rad2deg*hauteur(), rad2deg*azimut());
+		printf("\nEntrez une date et une heure au format suivant: Feb 12 1996 23:59:01\n>");
+		fgets(dateTimeStr, 22, stdin);
+		dateTimeStr[11] = '\0';
+		numJour = numJourFromDate(date, time);
+		printf("Le numéro du jour choisi est: %g (la partie après la virgule indique l'heure)\n", numJour);
+		calculAzimuthEtHauteur();
 	}
 
 	printf(" \n");
