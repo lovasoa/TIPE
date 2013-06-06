@@ -99,7 +99,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -108,6 +108,16 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-23.765771,-258.59824)">
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.79700005;stroke-miterlimit:3.79999995;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4114"
+       sodipodi:cx="635.89105"
+       sodipodi:cy="245.32198"
+       sodipodi:rx="55.053314"
+       sodipodi:ry="55.053314"
+       d="m 690.94437,245.32198 a 55.053314,55.053314 0 1 1 -110.10663,0 55.053314,55.053314 0 1 1 110.10663,0 z"
+       transform="translate(23.765771,258.59824)" />
     <rect
        style="fill:#000000;stroke:none"
        id="rect3787"
@@ -134,7 +144,7 @@
        sodipodi:cy="550.31635"
        sodipodi:rx="177.78685"
        sodipodi:ry="84.852814"
-       d="m 82.832512,550.31635 a 177.78685,84.852814 0 1 1 -355.573702,-1e-5"
+       d="m 82.832512,550.31635 c 0,46.86291 -79.5978841,84.85281 -177.78685,84.85281 -98.188962,0 -177.786852,-37.9899 -177.786852,-84.85281 0,-1e-5 0,-1e-5 0,-1e-5"
        transform="matrix(0.50078982,-0.96779429,0.88824019,0.45962416,-213.12724,147.59537)"
        sodipodi:start="0"
        sodipodi:end="3.1415927"
@@ -147,41 +157,23 @@
        sodipodi:cy="550.31635"
        sodipodi:rx="177.78685"
        sodipodi:ry="84.852814"
-       d="m 82.832512,550.31635 a 177.78685,84.852814 0 1 1 -355.573702,-1e-5"
+       d="m 82.832512,550.31635 c 0,46.86291 -79.5978841,84.85281 -177.78685,84.85281 -98.188962,0 -177.786852,-37.9899 -177.786852,-84.85281 0,-1e-5 0,-1e-5 0,-1e-5"
        transform="matrix(1.0084422,0.41834569,-0.38021506,0.92424014,523.85179,19.98011)"
        sodipodi:start="0"
        sodipodi:end="3.1415927"
        sodipodi:open="true" />
-    <path
-       sodipodi:type="star"
-       style="fill:#ffff00;fill-opacity:1;stroke:#0000ff;stroke-width:3.39700007;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       id="path3801"
-       sodipodi:sides="5"
-       sodipodi:cx="567.70575"
-       sodipodi:cy="690.7276"
-       sodipodi:r1="76.057175"
-       sodipodi:r2="38.028587"
-       sodipodi:arg1="0.52903047"
-       sodipodi:arg2="1.157349"
-       inkscape:flatsided="false"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="m 633.36566,729.1134 -50.38122,-3.56145 -31.49572,39.4838 -12.18152,-49.01594 -47.28404,-17.75304 42.85263,-26.73207 2.27258,-50.45579 38.6659,32.49461 48.68857,-13.43035 -18.95579,46.81485 z"
-       inkscape:transform-center-x="0.20655869"
-       inkscape:transform-center-y="-18.835128"
-       transform="translate(74.751288,-186.87822)" />
     <text
        xml:space="preserve"
        style="font-size:107px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="621.18292"
-       y="511.88995"
+       x="610.07123"
+       y="518.961"
        id="text3803"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3805"
-         x="621.18292"
-         y="511.88995"
-         style="font-size:17px">Soleil</tspan></text>
+         x="610.07123"
+         y="518.961"
+         style="font-size:37px">Soleil</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:107px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -196,7 +188,7 @@
          style="font-size:17px">Axe de rotation de la terre</tspan></text>
     <path
        sodipodi:type="arc"
-       style="fill:none;stroke:#000000;stroke-width:1.49699998;stroke-miterlimit:3.79999995;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       style="fill:none;stroke:#000000;stroke-width:3.05769282;stroke-miterlimit:3.79999995;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
        id="path3811"
        sodipodi:cx="483.86307"
        sodipodi:cy="344.75034"

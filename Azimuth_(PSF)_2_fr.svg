@@ -90,15 +90,15 @@
        id="path4172"
        inkscape:connector-curvature="0" />
     <text
-       x="519.89362"
-       y="1234.2719"
+       x="567.88483"
+       y="1230.2711"
        style="font-size:109.24029541px"
        id="text5173"
        xml:space="preserve"
        transform="scale(1.0001863,0.99981373)"><tspan
-         style="font-size:109.24029541px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         x="519.89362"
-         y="1234.2719"
+         style="font-size:109.24029541px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="567.88483"
+         y="1230.2711"
          id="tspan5175">Observateur</tspan></text>
     <text
        x="2155.4351"
@@ -107,20 +107,22 @@
        id="text5177"
        xml:space="preserve"
        transform="scale(1.0001863,0.99981373)"><tspan
-         style="font-size:169.15606689px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         style="font-size:169.15606689000000529px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal"
          x="2155.4351"
          y="241.70142"
          id="tspan5179">Soleil</tspan></text>
     <text
        x="1608.3896"
-       y="1306.9551"
+       y="1304.9551"
        style="font-size:107.08232117px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        id="text5197"
        xml:space="preserve"
        sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3001"
          x="1608.3896"
-         y="1306.9551"
-         id="tspan5199">Azimut</tspan></text>
+         y="1304.9551"
+         style="font-size:137.08232117px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">α</tspan></text>
     <path
        d="m 2667.2888,1211.1627 a 1320.5726,552.91166 0 1 1 -2641.145062,0 1320.5726,552.91166 0 1 1 2641.145062,0 z"
        style="fill:none;stroke:#000000;stroke-width:24.25390625;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
@@ -137,7 +139,7 @@
          id="tspan3853"
          x="2260.054"
          y="639.00336"
-         style="font-size:107px;fill:#ff0000;fill-opacity:1">Hauteur</tspan></text>
+         style="font-size:137px;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">h</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -149,7 +151,7 @@
          id="tspan3857"
          x="2709.615"
          y="1220.1959"
-         style="font-size:107px">Nord</tspan></text>
+         style="font-size:107px;-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Nord</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:107px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -160,6 +162,7 @@
          sodipodi:role="line"
          id="tspan3861"
          x="1230.9222"
-         y="1890.1047">Est</tspan></text>
+         y="1890.1047"
+         style="-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Est</tspan></text>
   </g>
 </svg>

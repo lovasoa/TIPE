@@ -68,7 +68,7 @@
   </g>
   <g class="com.sun.star.drawing.ConnectorShape">
    <g>
-    <path fill="none" stroke="rgb(128,128,128)" d="M 10700,3200 L 10700,6600"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 10700,3200 L 10700,6600"/>
    </g>
   </g>
   <g class="com.sun.star.drawing.CustomShape">
@@ -99,12 +99,12 @@
   </g>
   <g class="com.sun.star.drawing.ConnectorShape">
    <g>
-    <path fill="none" stroke="rgb(128,128,128)" d="M 10700,10200 L 10700,11500 5150,11500 5150,12800"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 10700,10200 L 10700,11500 5150,11500 5150,12800"/>
    </g>
   </g>
   <g class="com.sun.star.drawing.ConnectorShape">
    <g>
-    <path fill="none" stroke="rgb(128,128,128)" d="M 5150,16400 L 5150,19200"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 5150,16400 L 5150,19200"/>
    </g>
   </g>
   <g class="Group">
@@ -131,7 +131,7 @@
   </g>
   <g class="com.sun.star.drawing.ConnectorShape">
    <g>
-    <path fill="none" stroke="rgb(128,128,128)" d="M 5150,22800 L 5150,24850 8800,24850 8800,26900"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 5150,22800 L 5150,24826 8800,24826 8800,26900"/>
    </g>
   </g>
   <g class="Group">
@@ -198,17 +198,17 @@
   </g>
   <g class="com.sun.star.drawing.ConnectorShape">
    <g>
-    <path fill="none" stroke="rgb(128,128,128)" d="M 15850,16400 L 15850,19200"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 15850,16400 L 15850,19200"/>
    </g>
   </g>
   <g class="com.sun.star.drawing.ConnectorShape">
    <g>
-    <path fill="none" stroke="rgb(128,128,128)" d="M 15850,22800 L 15850,24850 8800,24850 8800,26900"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 15850,22800 L 15850,24826 8800,24826 8800,26900"/>
    </g>
   </g>
   <g class="com.sun.star.drawing.ConnectorShape">
    <g>
-    <path fill="none" stroke="rgb(128,128,128)" d="M 10700,10200 L 10700,11500 15850,11500 15850,12800"/>
+    <path fill="none" stroke="rgb(0,0,0)" d="M 10700,10200 L 10700,11500 15850,11500 15850,12800"/>
    </g>
   </g>
   <g class="Group">

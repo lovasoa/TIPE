@@ -99,7 +99,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -134,7 +134,7 @@
        sodipodi:cy="550.31635"
        sodipodi:rx="177.78685"
        sodipodi:ry="84.852814"
-       d="m 82.832512,550.31635 a 177.78685,84.852814 0 1 1 -355.573702,-1e-5"
+       d="m 82.832512,550.31635 c 0,46.86291 -79.5978841,84.85281 -177.78685,84.85281 -98.188962,0 -177.786852,-37.9899 -177.786852,-84.85281 0,-1e-5 0,-1e-5 0,-1e-5"
        transform="matrix(0.50078982,-0.96779429,0.88824019,0.45962416,-213.12724,147.59537)"
        sodipodi:start="0"
        sodipodi:end="3.1415927"
@@ -147,60 +147,31 @@
        sodipodi:cy="550.31635"
        sodipodi:rx="177.78685"
        sodipodi:ry="84.852814"
-       d="m 82.832512,550.31635 a 177.78685,84.852814 0 1 1 -355.573702,-1e-5"
+       d="m 82.832512,550.31635 c 0,46.86291 -79.5978841,84.85281 -177.78685,84.85281 -98.188962,0 -177.786852,-37.9899 -177.786852,-84.85281 0,-1e-5 0,-1e-5 0,-1e-5"
        transform="matrix(1.0084422,0.41834569,-0.38021506,0.92424014,523.85179,19.98011)"
        sodipodi:start="0"
        sodipodi:end="3.1415927"
        sodipodi:open="true" />
-    <g
-       id="g6727"
-       transform="matrix(0.50641951,0,0,0.50641951,350.63129,173.06854)">
-      <path
-         transform="translate(74.751288,-186.87822)"
-         inkscape:transform-center-y="-18.835128"
-         inkscape:transform-center-x="0.20655869"
-         d="m 633.36566,729.1134 -50.38122,-3.56145 -31.49572,39.4838 -12.18152,-49.01594 -47.28404,-17.75304 42.85263,-26.73207 2.27258,-50.45579 38.6659,32.49461 48.68857,-13.43035 -18.95579,46.81485 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="1.157349"
-         sodipodi:arg1="0.52903047"
-         sodipodi:r2="38.028587"
-         sodipodi:r1="76.057175"
-         sodipodi:cy="690.7276"
-         sodipodi:cx="567.70575"
-         sodipodi:sides="5"
-         id="path3801"
-         style="fill:#ffff00;fill-opacity:1;stroke:#e89500;stroke-width:3.39700007;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-         sodipodi:type="star" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text3803"
-         y="508.8595"
-         x="616.13214"
-         style="font-size:107px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
-           style="font-size:17px"
-           y="508.8595"
-           x="616.13214"
-           id="tspan3805"
-           sodipodi:role="line">Soleil</tspan></text>
-    </g>
     <text
        xml:space="preserve"
        style="font-size:107px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="49.741142"
-       y="275.51425"
+       x="329.71585"
+       y="283.59546"
        id="text3807"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3809"
-         x="49.741142"
-         y="275.51425"
-         style="font-size:17px">Axe de rotation de la terre</tspan></text>
+         x="329.71585"
+         y="283.59546"
+         style="font-size:20px">Axe de rotation</tspan><tspan
+         sodipodi:role="line"
+         x="329.71585"
+         y="308.59546"
+         style="font-size:20px"
+         id="tspan5537">de la terre</tspan></text>
     <path
        sodipodi:type="arc"
-       style="fill:none;stroke:#000000;stroke-width:1.49699998;stroke-miterlimit:3.79999995;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       style="fill:none;stroke:#000000;stroke-width:2.60007893;stroke-miterlimit:3.79999995;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
        id="path3811"
        sodipodi:cx="483.86307"
        sodipodi:cy="344.75034"
@@ -222,19 +193,20 @@
          sodipodi:role="line"
          id="tspan4464"
          x="382.14636"
-         y="616.10376">Équateur</tspan></text>
+         y="616.10376"
+         style="font-size:27.00000036px">Équateur</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:107px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="335.13644"
-       y="329.7298"
+       x="348.26843"
+       y="338.82117"
        id="text4466"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4468"
-         x="335.13644"
-         y="329.7298"
-         style="font-size:17px;fill:#ff0000;fill-opacity:1">Méridien</tspan></text>
+         x="348.26843"
+         y="338.82117"
+         style="font-size:27px;fill:#ff0000;fill-opacity:1">Méridien</tspan></text>
     <g
        id="g6722"
        transform="translate(-19.172593,62.629458)">
@@ -300,6 +272,32 @@
            inkscape:transform-center-x="0.317524"
            inkscape:transform-center-y="0.17590171" />
       </a>
+    </g>
+    <g
+       id="g5012"
+       transform="translate(8,0)">
+      <path
+         transform="translate(23.765771,258.59824)"
+         d="m 671.75147,139.25595 c 0,26.49986 -21.48238,47.98225 -47.98224,47.98225 -26.49987,0 -47.98225,-21.48239 -47.98225,-47.98225 0,-26.49986 21.48238,-47.982245 47.98225,-47.982245 26.49986,0 47.98224,21.482385 47.98224,47.982245 z"
+         sodipodi:ry="47.982246"
+         sodipodi:rx="47.982246"
+         sodipodi:cy="139.25595"
+         sodipodi:cx="623.76923"
+         id="path5006"
+         style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.176;stroke-miterlimit:3.79999995;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5008"
+         y="405.43033"
+         x="610.66437"
+         style="font-size:17px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:27px"
+           y="405.43033"
+           x="610.66437"
+           id="tspan5010"
+           sodipodi:role="line">Soleil</tspan></text>
     </g>
   </g>
 </svg>
